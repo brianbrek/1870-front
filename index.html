@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--BARRA DE NAVEGACION-->
+<ul>
+  <li><a href="#home">Pedir cuenta</a></li>
+  <li><a href="#news">Ampliar pedido</a></li>
+  <li style="float:right"><a class="active" href="#about">Dejanos tu comentario ;)</a></li>
+</ul>
+
+<!--FORMULARIO-->
+<form action="/action_page.php">
+ <div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>Pinchar</th>
+      <th>Nombre</th>
+      <th>Detalle</th>
+      <th>Cantidad</th>
+    </tr>
+    <tr>
+      <td>
+        <label class="container">
+          <input type="checkbox" name="chek1">
+          <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>AAA</td>
+      <td>AAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAA</td>
+      <td><input type="number" name="quantity1" min="1" max="5"></td>
+    </tr>
+    <tr>
+      <td>
+        <label class="container">
+          <input type="checkbox" name="chek2">
+          <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>APA</td>
+      <td>AAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAA</td>
+      <td><input type="number" name="quantity2" min="1" max="5"></td>
+    </tr>
+    <tr>
+      <td>
+        <label class="container">
+          <input type="checkbox" name="chek3">
+          <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>IPA MINGA</td>
+      <td>AAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAA</td>
+      <td><input type="number" name="quantity3" min="1" max="5"></td>
+    </tr>
+  </table>
+  <input type="submit" value="Confirmar">
+</form>
+
+<!--FOOTHER-->
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
